@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formularios HTML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/18286a149e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main class="m-3 border">
+        <div class="bg-secondary-subtle text-secondary-emphasis border">
+            <h2> PAYMENT FORM EXAMPLE</h2>
+        </div>
+
+        <div class="container">
+            <div class="alert alert-danger my-3" role="alert">
+                Some Fields are required
+            </div>
+            <form class="row g-3">
+
+
+                <div class="col-lg-6">
+                    <label for="card-number" class="form-label">Card Number #</label>
+                    <input type="number" class="form-control" id="card-number">
+                </div>
+                <div class="col-lg-2">
+                    <label for="secure-code" class="form-label">CVC #</label>
+                    <input type="number" class="form-control" id="secure-code">
+                </div>
+                <div class="col-lg-4">
+                    <label for="payment" class="form-label">Amount</label>
+                    <input type="number" class="form-control" id="payment">
+                </div>
+                <div class="col-6">
+                    <label for="username" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="username" placeholder="Name">
+                </div>
+                <div class="col-6">
+                    <label for="userlastname" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="userlastname" placeholder="Last Name">
+                </div>
+                <div class="col-lg-4">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Example: Madrid">
+                </div>
+                <div class="col-lg-4">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Madrid</option>
+                        <option>Valencia</option>
+                        <option>Barcelona</option>
+                        <option>Galicia</option>
+                    </select>
+                </div>
+                <div class="col-lg-4">
+                    <label for="inputZip" class="form-label">Zip Code</label>
+                    <input type="text" class="form-control" id="inputZip" placeholder="Example: 28000">
+                </div>
+                <div class="d-flex flex-row mb-3">
+                    <div class="col-lg-6">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheckVisa">
+                            <label class="form-check-label" for="gridCheck">
+                                <i class="fa-brands fa-cc-visa"></i> Visa
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheckMasterCard">
+                            <label class="form-check-label" for="ggridCheckMasterCard">
+                                <i class="fa-brands fa-cc-mastercard"></i> Masterd Card
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheckPaypal">
+                            <label class="form-check-label" for="gridCheckPaypal">
+                                <i class="fa-brands fa-paypal"></i> Paypal
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheckAmex">
+                            <label class="form-check-label" for="ridCheckAmex">
+                                <i class="fa-brands fa-cc-amex"></i> Amex
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-floating col-6">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Message">
+                            <label for="floatingInput">Message</label>
+                        </div </div>
+
+                    </div>
+
+                </div>
+
+
+        </div>
+
+        </div>
+
+
+        <div class="d-flex justify-content-end bg-secondary-subtle p-3">
+            <div class="col-lg-1 gap-0">
+                <button type="submit" class="btn btn-secondary">Cancel</button>
+            </div>
+            <div class="col-lg-1 gap-0">
+                <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+        </div>
+    </main>
+    </form>
+
+
+
+
+
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
