@@ -11,12 +11,12 @@
 </head>
 
 <body>
-    <main class="m-3 border">
+    <main class="container mx-auto">
         <div class="bg-secondary-subtle text-secondary-emphasis border">
             <h2> PAYMENT FORM EXAMPLE</h2>
         </div>
 
-        <div class="container">
+        <div class="container mx-auto">
             <div class="alert alert-danger my-3" role="alert">
                 Some Fields are required
             </div>
@@ -25,27 +25,27 @@
 
                 <div class="col-lg-6">
                     <label for="card-number" class="form-label">Card Number #</label>
-                    <input type="number" class="form-control" id="card-number">
+                    <input type="number" class="form-control" id="card-number" required>
                 </div>
                 <div class="col-lg-2">
                     <label for="secure-code" class="form-label">CVC #</label>
-                    <input type="number" class="form-control" id="secure-code">
+                    <input type="number" class="form-control" id="secure-code" required>
                 </div>
                 <div class="col-lg-4">
                     <label for="payment" class="form-label">Amount</label>
-                    <input type="number" class="form-control" id="payment">
+                    <input type="number" class="form-control" id="payment" required>
                 </div>
                 <div class="col-6">
                     <label for="username" class="form-label">Address</label>
-                    <input type="text" class="form-control" id="username" placeholder="Name">
+                    <input type="text" class="form-control" id="username" placeholder="Name" required>
                 </div>
                 <div class="col-6">
                     <label for="userlastname" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="userlastname" placeholder="Last Name">
+                    <input type="text" class="form-control" id="userlastname" placeholder="Last Name" required>
                 </div>
                 <div class="col-lg-4">
                     <label for="inputCity" class="form-label">City</label>
-                    <input type="text" class="form-control" id="inputCity" placeholder="Example: Madrid">
+                    <input type="text" class="form-control" id="inputCity" placeholder="Example: Madrid" required>
                 </div>
                 <div class="col-lg-4">
                     <label for="inputState" class="form-label">State</label>
@@ -65,25 +65,25 @@
                 <div class="d-flex flex-row mb-3">
                     <div class="col-lg-6">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name = id="gridCheckVisa">
+                            <input class="form-check-input" type="radio" name = id="gridCheckVisa">
                             <label class="form-check-label" for="gridCheck">
                                 <i class="fa-brands fa-cc-visa"></i> Visa
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheckMasterCard">
+                            <input class="form-check-input" type="radio" id="gridCheckMasterCard">
                             <label class="form-check-label" for="ggridCheckMasterCard">
                                 <i class="fa-brands fa-cc-mastercard"></i> Masterd Card
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheckPaypal">
+                            <input class="form-check-input" type="radio" id="gridCheckPaypal">
                             <label class="form-check-label" for="gridCheckPaypal">
                                 <i class="fa-brands fa-paypal"></i> Paypal
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheckAmex">
+                            <input class="form-check-input" type="radio" id="gridCheckAmex">
                             <label class="form-check-label" for="ridCheckAmex">
                                 <i class="fa-brands fa-cc-amex"></i> Amex
                             </label>
